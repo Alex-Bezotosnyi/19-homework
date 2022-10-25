@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+button img {
+    width: 18px;
+    padding: 3px 4px 0 0;
+    color: #e8f3ff;
+}
+
+body {
+    height: 100%;
+    /*background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);*/
+    background: radial-gradient(circle, rgba(238,174,202,0.8550770650056898) 0%, rgba(148,187,233,1) 81%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    color: #333;
+}
+
+select {
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 10px;
+    border: none;
+}
+
+header {
+    box-shadow: 3px 3px 7px #0000000a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    flex: 1 0 auto;
+    padding-top: 40px;
+}
+
+.countdown-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navigation-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttons {
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 8px #808080;
+    cursor: pointer;
+    background: #3858ffd4;
+    color: #e8f3ff;
+    font-size: 18px;
+}
+
+.buttons:hover {
+    box-shadow: 3px 3px 10px #808080;
+}
+
+.submit-button {
+    border-radius: 5px;
+    border: none;
+    padding: 4px 5px;
+    background: #ffa500d4;
+    cursor: pointer;
+    color: #ffffff;
+    box-shadow: 2px 2px 8px #808080;
+    font-size: 14px;
+}
+
+.submit-button:hover {
+    box-shadow: 3px 3px 10px #808080;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.submit-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-item {
+    color: #111;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.countdown-item span {
+    color: #333;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.clock {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-svg {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    overflow: visible;
+}
+
+.progressbar-container {
+    border-radius: 5px;
+}
+
+.progressbar-wrapper {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 50px;
+}
+
+.progressbar {
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.containerStyle {
+    background: #ededed;
+    width: 75%;
+}
+
+.contentStyle {
+    background: linear-gradient(100deg, rgba(255,57,57,1) 0%, rgba(233,255,3,1) 50%, rgba(0,255,128,1) 100%);
+    opacity: 0.8;
+    height: 12px;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
